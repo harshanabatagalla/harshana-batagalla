@@ -18,9 +18,9 @@ const Hero = () => {
             <br className="sm:block" />
             beautiful and functional user experiences.
           </p>
-          <ComputersCanvas/>
         </div>
       </div>
+          <ComputersCanvas/>
     </section>
   )
 }
