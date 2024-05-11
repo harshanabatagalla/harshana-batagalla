@@ -15,10 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    ico99x,
+    stc,
+    uom,
     carrent,
     jobit,
     tripguide,
@@ -33,6 +32,14 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -116,57 +123,45 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Trainee Software Engineer",
+      company_name: "99x",
+      icon: ico99x,
+      iconBg: "#fff",
+      date: "January 2024 - July 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Joined a six-month internship during my third year as an undergraduate.",
+        "Contributed to the development of new features, including the homepage, and enhancements for the 99x official website (https://99x.io), a CMS-based website built using Gatsby.",
+        "Worked on the project portal of the company, a web application developed using Angular, .Net, and EF Core.",
+        "Engaged in both front-end and back-end development of the project portal, gaining professional experience in Angular, .Net, EF Core, and SQL Server. ",
+        "Collaborated with cross-functional teams, including designers, product managers, marketing personnel, and other developers, to create high-quality products.",
+      ]  
+    }
+  ];
+  const educations = [
+    {
+      title: "BSc.(Hons.) in Information Technology ( 2025 Expected )",
+      company_name: "University of Moratuwa",
+      icon: uom,
+      iconBg: "#fff",
+      date: "june 2021 - present",
+      description: "Currently pursuing a BSc. (Hons.) in Information Technology, actively engaging in coursework and practical projects to enhance skills for impactful contributions in the dynamic tech industry."
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      title: "G.C.E. A/L (Physical Science Stream)",
+      company_name: "St. Thomas' College, Matale.",
+      icon: stc,
+      iconBg: "#fff",
+      date: "2017-2019",
+      description: "Completed Advanced Levels with a Z score of 1.6323. Studied Physics, Combined Mathematics , and Information and Communication Technology as main subjects."
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+      title: "G.C.E. O/L",
+      company_name: "St. Thomas' College, Matale.",
+      icon: stc,
+      iconBg: "#fff",
+      date: "2011 - 2016",
+      description: "Completed with a score of 9 A-grades. My optional subjects were Geography, Eastern Music and ICT."
+    }
   ];
   
   const testimonials = [
@@ -262,4 +257,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations };
