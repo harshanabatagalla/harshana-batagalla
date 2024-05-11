@@ -39,7 +39,7 @@ const About = () => {
 
     <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className='mt-4 color-secondary text-[17px] max-w-3xl leading-[30px ]'
+      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px ]'
     >
       A self-motivated and skillful undergraduate, with a great interest in problem-solving. Skilled in JavaScript and TypeScript, with expertise in React and Node.js frameworks. Familiar with Angular and .NET
       Good team player who is always excited to face new challenges. Excited about tackling new challenges and working collaboratively in teams.

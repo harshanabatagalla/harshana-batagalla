@@ -29,7 +29,7 @@ const EducationCard = ({ education }) => (
             <h3 className='text-white text-[18px] font-bold'>{education.title}</h3>
             <p className='text-secondary font-semi-bold' style={{ margin: 0, fontSize: "16px" }}>{education.company_name}</p>
             <div className='flex items-center gap-2 mt-2'>
-                <p className='text-white pl-1 mt-2 text' style={{ margin: 0, fontSize: "14px" }}>{education.description}</p>
+                <p className='text-white pl-1 mt-2 text' style={{ margin: 0, fontSize: "14px" , fontWeight: 200}}>{education.description}</p>
             </div>
         </div>
         {/* <ul className='mt-5 list-disc ml-5 space-y-2'>
