@@ -12,7 +12,7 @@ const FeedbackCard = ({ index, name, designation, testimonial, company, image })
   >
     <p className='text-white font-black sm:text-[48px] text-[36px]'>"</p>
     <div className='mt-1'>
-      <p className='white tracking-wider sm:text-[16px] text-[14px]'>{testimonial}</p>
+      <p className='white tracking-wider sm:text-[16px] text-[14px] text-white'>{testimonial}</p>
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
           <p className='text-white font-medium text-[16px]'> 
