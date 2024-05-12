@@ -30,6 +30,8 @@ import portfolio from "./portfolio.png";
 import journeyjive from "./journey-jive.png";
 import weatherX from "./weatherX.png";
 
+import shehan from "./testimonials/shehan.jfif";
+
 export {
   logo,
   backend,
@@ -57,5 +59,6 @@ export {
   uom,
   portfolio,
   journeyjive,
-  weatherX
+  weatherX,
+  shehan
 };

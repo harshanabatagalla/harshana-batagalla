@@ -22,6 +22,7 @@ import {
   journeyjive,
   weatherX,
   threejs,
+  shehan,
 } from "../assets";
 
 export const navLinks = [
@@ -167,27 +168,11 @@ const educations = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Harshana contributed to the 99x corporate website technical activities during his internship, and as a person who had to work alongside with him and overlook a few of the tasks that were handed to him, He did a splendid job at abiding to his deadlines and overall communication on the status of said tasks. Harshana is a self studying individual and I'm pleased to have had him on our team.",
+    name: "Shehan Cooray",
+    designation: "Senior Digital Marketing Executive",
+    company: "99x",
+    image: shehan,
   },
 ];
 
