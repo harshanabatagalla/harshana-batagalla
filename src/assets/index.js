@@ -21,6 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import heroDP from './hero_DP.png'
 import ico99x from "./company/99x.png";
 
 import stc from "./education/stc.png";
@@ -60,5 +61,6 @@ export {
   portfolio,
   journeyjive,
   weatherX,
-  shehan
+  shehan,
+  heroDP
 };
