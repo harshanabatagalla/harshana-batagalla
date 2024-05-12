@@ -26,9 +26,9 @@ import ico99x from "./company/99x.png";
 import stc from "./education/stc.png";
 import uom from "./education/uom.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import journeyjive from "./journey-jive.png";
+import weatherX from "./weatherX.png";
 
 export {
   logo,
@@ -55,7 +55,7 @@ export {
   ico99x,
   stc,
   uom,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio,
+  journeyjive,
+  weatherX
 };
