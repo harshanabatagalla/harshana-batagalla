@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { slideIn } from '../utils/motion';
 import { styles } from '../styles';
 import { TypeAnimation } from 'react-type-animation';
-import { ComputersCanvas } from './canvas';
 import { heroDP } from '../assets';
 
 const Hero = () => {
@@ -32,15 +31,35 @@ const Hero = () => {
               repeat={Infinity}
             />
           </p>
+          <div className='mt-5'>
+            <a
+              href="https://drive.google.com/file/d/16xozMs_xJ0Kok-1aoEWxGbAabqbKtElR/view?usp=drive_link"
+              target='_blank'
+              download>
+              <button
+                type="button"
+                class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+              >
+                Resume
+              </button>
+            </a>
+            <a href="#contact">
+              <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Contact Me
+                </span>
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       <div className='lg:w-[620px] lg:h-[620px] md:w-[600px] md:h-[600px] h-[520px] flex absolute bottom-0 right-0 overflow-hidden'>
-          <div className='w-[500px] h-[500px] rounded-full bg-[#8C52FF] absolute object-cover mt-40 lg:ml-20 ml-2' />
-          <img
-            src={heroDP}
-            alt='Harshana Batagalla'
-            className='lg:h-full w-auto object-cover z-20'
-          />
+        <div className='w-[500px] h-[500px] rounded-full bg-[#8C52FF] absolute object-cover mt-40 lg:ml-20 ml-2' />
+        <img
+          src={heroDP}
+          alt='Harshana Batagalla'
+          className='lg:h-full w-auto object-cover z-20'
+        />
       </div>
       <div className='absolute xs:bottom-10 bottom-4 w-full flex justify-center items-center'>
         <a href='#about'>
